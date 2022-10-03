@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		33C1EABD28E2AB0A006FD20B /* Mesa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mesa.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Mesa.h"; sourceTree = "<group>"; };
+		33C1EABE28E2AB0A006FD20B /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = History.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/History.h"; sourceTree = "<group>"; };
+		33C1EABF28E2AB0A006FD20B /* Gark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Gark.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Gark.h"; sourceTree = "<group>"; };
+		33C1EAC028E2AB0A006FD20B /* utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = utilities.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/utilities.cpp"; sourceTree = "<group>"; };
+		33C1EAC128E2AB0A006FD20B /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Game.cpp"; sourceTree = "<group>"; };
+		33C1EAC228E2AB0A006FD20B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Player.h"; sourceTree = "<group>"; };
+		33C1EAC328E2AB0A006FD20B /* Gark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Gark.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Gark.cpp"; sourceTree = "<group>"; };
+		33C1EAC428E2AB0A006FD20B /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Game.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Game.h"; sourceTree = "<group>"; };
+		33C1EAC528E2AB0A006FD20B /* Mesa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Mesa.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Mesa.cpp"; sourceTree = "<group>"; };
+		33C1EAC628E2AB0A006FD20B /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/globals.h"; sourceTree = "<group>"; };
+		33C1EAC728E2AB0A006FD20B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/main.cpp"; sourceTree = "<group>"; };
+		33C1EAC828E2AB0A006FD20B /* History.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = History.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/History.cpp"; sourceTree = "<group>"; };
+		33C1EAC928E2AB0A006FD20B /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = "../../CS_Material/CS 32 - Carey Nachenberg copy/Project:HW_Solutions/Project_1/solution1/Player.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		33C1EAB628E2AAF2006FD20B = {
+			isa = PBXGroup;
+			children = (
+				33C1EAC128E2AB0A006FD20B /* Game.cpp */,
+				33C1EAC428E2AB0A006FD20B /* Game.h */,
+				33C1EAC328E2AB0A006FD20B /* Gark.cpp */,
+				33C1EABF28E2AB0A006FD20B /* Gark.h */,
+				33C1EAC628E2AB0A006FD20B /* globals.h */,
+				33C1EAC828E2AB0A006FD20B /* History.cpp */,
+				33C1EABE28E2AB0A006FD20B /* History.h */,
+				33C1EAC728E2AB0A006FD20B /* main.cpp */,
+				33C1EAC528E2AB0A006FD20B /* Mesa.cpp */,
+				33C1EAC028E2AB0A006FD20B /* utilities.cpp */,
+				33C1EABD28E2AB0A006FD20B /* Mesa.h */,
+				33C1EAC928E2AB0A006FD20B /* Player.cpp */,
+				33C1EAC228E2AB0A006FD20B /* Player.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		33C1EAB728E2AAF2006FD20B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 33C1EABA28E2AAF2006FD20B /* Build configuration list for PBXProject "Project1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33C1EAB628E2AAF2006FD20B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		33C1EABB28E2AAF2006FD20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		33C1EABC28E2AAF2006FD20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C1EABA28E2AAF2006FD20B /* Build configuration list for PBXProject "Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C1EABB28E2AAF2006FD20B /* Debug */,
+				33C1EABC28E2AAF2006FD20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C1EAB728E2AAF2006FD20B /* Project object */;
+}
