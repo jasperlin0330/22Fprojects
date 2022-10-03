@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Spooky Puzzle</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div id="puzzleOne">
+      <h1 class="highlight">Puzzle One</h1>
+      <h2><span class="highlight">One</span> equals <span class="highlight">two</span> equals <span class="highlight">three</span></h2>
+      
+      <div id="rangeInputs" class="inputs">
+        <input id="rangeOne" disabled class="range aligned" type="range" min="0" max="10" value="3">
+        
+        <input id="rangeTwo" class="range" type="range" min="0" max="10" value="8">
+        <input id="rangeThree" class="range" type="range" min="0" max="10" value="1">
+      </div>
+        
+      <button id="finishPuzzleOne" class="hidden">
+        Next Puzzle
+      </button>
+    </div>
+    <div id="puzzleTwo" class="hidden">
+      <h1 class="highlight">Puzzle Two</h1>
+      <h2>Click <span class="highlight">the sequence</span></h2>
+      <p>
+        To unlock this puzzle you will need to complete <span id="stepThree">three</span> steps.
+        Each step must be completed <span id="stepOne" class="red">one</span> after another.
+        You will have <span id="stepTwo">two</span> problems: finding what to click, and clicking in the right order.
+      </p>
+      
+      <button id="finishPuzzleTwo" class="hidden">
+        Next Puzzle
+      </button>
+    </div>
+    <div id="puzzleThree" class="hidden">
+      <h1 class="highlight">Puzzle Three</h1>
+      <h2>Enter <span class="highlight">the sequence</span> for testing</h2>
+      <input id="finalInput" type="text" autocomplete="off">
+      
+      <button id="finishPuzzleThree">
+        Try
+      </button>
+    </div>
+    <div id="celebration" class="hidden">
+      <h1 class="highlight celebration">Well Done!</h1>
+    </div>
+    <script src="scriptPuzzle.js"></script>
+  </body>
+</html>
+
