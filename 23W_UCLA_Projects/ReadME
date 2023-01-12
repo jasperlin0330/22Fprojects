@@ -1,1 +1,19 @@
+An evil wizard has produced many clones of the killer rabbit of Caerbannog and has trapped you in an enclosure with them. Fortunately, you have a supply of poisoned baby carrots.
 
+Well, that's the scenario for a new video game under development. Your assignment is to complete the prototype that uses character-based graphics.
+
+If you execute this Windows program or this Mac program or this Linux program, you will see the player (indicated by @) in a rectangular arena filled with rabbits (usually indicated by R). At each turn, the user will select an action for the player to take: either move one step or drop a poisoned carrot without moving. The player will take the action, and then each rabbit will move one step in a random direction. If a rabbit moves onto the grid point occupied by the player, the player dies from the rabbit's attack. (If the player moves to a grid point occupied by a rabbit, the player is attacked and dies, so that would be a dumb move.)
+
+If a rabbit lands on a grid point with a poisoned carrot, it eats the carrot. The first time a rabbit eats a poisoned carrot, it slows down: it doesn't move on its next turn, but it moves on the turn after that, then on the next turn it doesn't move, then it moves on the turn after that, etc., moving only every other turn. The second time a rabbit eats a poisoned carrot, it dies. (If a poisoned rabbit moves to a grid point with both the player and a poisoned carrot, it eats the carrot and just before it dies, it attacks the player, so both die.)
+
+This smaller Windows version or Mac version or Linux version of the game may help you see the operation of the game more clearly.
+
+At each turn the player may take one of these actions:
+
+Move one step north, east, south, or west, and do not drop a poisoned carrot. If the player attempts to move out of the arena (e.g., south, when on the bottom row), the player does not move, and does not drop a vial. If the player moves to a grid point currently occupied by a rabbit, the player dies.
+Do not move, but attempt to drop a poisoned carrot. If there is already a poisoned carrot at that grid point, no additional carrot is dropped; a grid point may have at most one poisoned carrot. The player has an unlimited supply of poisoned carrots.
+The game allows the user to select the player's action: n/e/s/w for movement, or c for dropping a poisoned carrot. The user may also just hit enter to have the computer select the player's move.
+
+After the player moves, it's the rabbits' turn. Each rabbit has an opportunity to move. A rabbit that has previously eaten a poisoned carrot will not move if it attempted to move on the previous turn. Otherwise, it will pick a random direction (north, east, south, west) with equal probability. The rabbit moves one step in that direction if it can; if the rabbit attempts to move off the grid, however, it does not move (but this still counts as a poisoned rabbit's attempt to move, so it won't move on the next turn). More than one rabbit may occupy the same grid point; in that case, instead of R, the display will show a digit character indicating the number of rabbits at that point (where 9 indicates 9 or more).
+
+If after a rabbit moves, it occupies the same grid point as the player (whether or not there's a poisoned carrot at that point), the player dies. If the rabbit lands on a grid point with a poisoned carrot on it, it eats the carrot (and the carrot is no longer part of the game). If this is the second poisoned carrot the rabbit has eaten, it dies. If more than one rabbit lands on a spot that started the turn with a poisoned carrot on it, only one of them eats the poisoned carrot.
