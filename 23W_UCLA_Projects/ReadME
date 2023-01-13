@@ -1,3 +1,6 @@
+I added one new command you can type: h for history. This command shows you for each grid point, how many poisoned carrots have ever been dropped at that grid point: dot means 0, a letter character A through Y means 1 through 25 (A means 1, B means 2, etc.) and Z means 26 or more.
+
+Game's Setting:
 An evil wizard has produced many clones of the killer rabbit of Caerbannog and has trapped you in an enclosure with them. Fortunately, you have a supply of poisoned baby carrots.
 
 Well, that's the scenario for a new video game under development. Your assignment is to complete the prototype that uses character-based graphics.
