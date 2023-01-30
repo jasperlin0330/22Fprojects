@@ -1,1 +1,28 @@
 In this course, you will learn how to employ data abstraction to build programs larger than those you constructed in CS 31. You will learn how to use a variety of data structures in the course of solving problems, and importantly, how to analyze what data structures and algorithms are most appropriate for a given problem. In addition, you will deepen your understanding of modern programming by learning the principles of object-oriented and generic programming.
+
+
+Topics:
+Introduction, C++ Review	Chapter 1
+ 	Jan.  11/12	Data Abstraction, C++ Classes	Chapter 1
+ 	Jan.  13	Pointers, Dynamic Arrays, Resource Management	Chapter 3
+2	Jan.  16/17	Resource Management	Chapter 3
+ 	Jan.  18/19	Linked Lists	Chapters 4 and 8
+3	Jan.  23/24	Stacks and Queues	Chapters 6, 7, 13, and 14
+ 	Jan.  25/26	Inheritance	Chapter 3
+4	Jan.  30/31	Inheritance and Polymorphism	Chapter 3
+ 	Feb.   1/2	Object-Oriented Design Principles, Midterm Review	 
+5	Feb.   6/7	Recursion	Chapters 2 and 5
+ 	Feb.   6 (Mon.)	Midterm 1 (6:00 pm to 7:30 pm)	 
+ 	Feb.   8/9	Recursion	Chapters 2 and 5
+6	Feb. 13/14	Templates, Iterators, STL	 
+ 	Feb. 15/16	Algorithmic Efficiency, Sorting	Chapters 10 and 11
+7	Feb. 20/21	Sorting	Chapter 11
+ 	Feb. 22/23	Trees	Chapter 15
+8	Feb. 27/28	Trees, Midterm Review	Chapter 16	 
+ 	Mar.   1 (Wed.)	Midterm 2 (6:00 pm to 7:30 pm)	 
+ 	Mar.   1/2	Tables, Tree-based Tables, Hash Tables	Chapter 18
+9	Mar.   6/7	Hash Tables	Chapter 18
+ 	Mar.   8/9	Trees and Arrays, Priority Queues, Heaps	Chapter 17
+10	Mar. 13/14	Graphs	Chapter 20
+ 	Mar. 15/16	Review	 
+end of 10	Mar. 18 (Sat.)	Final exam (11:30 am to 2:30 pm)
